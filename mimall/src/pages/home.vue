@@ -1,14 +1,9 @@
 <template>
   <!--主页面-->
   <div>
-    home
-    <nav-header>
-      <router-view></router-view>
-    </nav-header>
-    <Index></Index>
-    <nav-footer>
-      <router-view></router-view>
-    </nav-footer>
+    <nav-header></nav-header>
+    <router-view></router-view>
+    <nav-footer></nav-footer>
   </div>
 </template>
 
